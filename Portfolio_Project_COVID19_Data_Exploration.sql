@@ -33,6 +33,7 @@ order by 1,2
 Select Location, date, Population, total_cases,  (total_cases/population)*100 as PercentPopulationInfected
 From PortfolioProject..CovidDeaths
 --Where location like '%Peru%'
+
 order by 1,2
 
 
